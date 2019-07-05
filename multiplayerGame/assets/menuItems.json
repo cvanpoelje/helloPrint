@@ -1,0 +1,60 @@
+{
+  "user": {
+    "GUID": "3F2504E04F8911D39A0C0305E82C3301",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@gaming.com"
+  },
+  "menuItems": {
+    "user": {
+      "userName": "",
+      "userEmail": "",
+      "editUser": {
+        "text": "Edit Account",
+        "url": "/editAccount",
+        "style": "primary"
+      }
+    },
+    "info": {
+      "rankings": {
+        "text": "Rankings",
+        "url": "/Rankings",
+        "style": "primary"
+      },
+      "tournaments": {
+        "text": "Tournaments",
+        "url": "/Tournaments",
+        "style": "primary"
+      },
+      "game": {
+        "text": "Game",
+        "url": "/game",
+        "style": "primary"
+      }
+    },
+    "personal": {
+      "settings": {
+        "text": "Settings",
+        "url": "/settings",
+        "style": "primary"
+      },
+      "scores": {
+        "text": "My Scores",
+        "url": "/scores",
+        "style": "primary"
+      },
+      "logout": {
+        "text": "Logout",
+        "url": "/logout",
+        "style": "primary"
+      }
+    },
+    "need any help?": {
+      "contact": {
+        "text": "Contact Us",
+        "url": "/contact",
+        "style": "primary"
+      }
+    }
+  }
+}

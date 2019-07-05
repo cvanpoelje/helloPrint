@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link type=“"image/vnd.microsoft.icon" rel=“icon” href=./assets/favicon.ico/>
+    <title>FlyYourFlag</title>
+</head>
+<body>
+<div class="page__wrapper --menu-closed">
+    <!-- Page navigations -->
+    <div class="navigation__hamburger">
+        <img src="./assets/icons/menu.png" alt="hamburger">
+    </div>
+    <div class="page__navigation">
+        <div class="navigation__group">
+            <ul class="navigation__list">
+                <li class="navigation__listItem--primary">John Doe</li>
+                <li class="navigation__listItem--primary">john.doe@gaming.com</li>
+                <li class="navigation__listItem--secondary"><a href="#">Edit Account</a></li>
+            </ul>
+        </div>
+
+        <div class="navigation__group">
+            <ul class="navigation__list">
+                <li class="navigation__listItem--title"><h4>INFO</h4></li>
+                <li class="navigation__listItem--primary">Rankings</li>
+                <li class="navigation__listItem--primary">Tournaments</li>
+                <li class="navigation__listItem--primary"><a href="#">Game</a></li>
+            </ul>
+        </div>
+
+        <div class="navigation__group">
+            <ul class="navigation__list">
+                <li class="navigation__listItem--title"><h4>PERSONAL</h4></li>
+                <li class="navigation__listItem--primary">Settings</li>
+                <li class="navigation__listItem--primary">My Scores</li>
+                <li class="navigation__listItem--primary"><a href="#">Logout</a></li>
+            </ul>
+        </div>
+
+        <div class="navigation__group">
+            <ul class="navigation__list">
+                <li class="navigation__listItem--title"><h4>NEED ANY HELP?</h4></li>
+                <li class="navigation__listItem--secondary"><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="page__container">
+        <header></header>
+        <main>
+            <div class="game__container">
+                <div class="playerCard__container">
+                    <div class="playerCard__UI">
+                        <p>
+                            Enter a number <br>
+                            between 0 and 100 <br>
+                            <input class="playerCard__input" data-player=1 type="text">
+                            <button class="playerCard__submit" data-player=1>Submit</button>
+                            <span class="playerCard__message" data-player=1>
+                               Take a guess
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="playerCard__container">
+                    <div class="playerCard__UI">
+                        <p>
+                            Enter a number <br>
+                            between 0 and 100 <br>
+                            <input class="playerCard__input" data-player=2 type="text">
+                            <button class="playerCard__submit" data-player=2>Submit</button>
+                            <span class="playerCard__message" data-player=2>Take a guess</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="playerCard__container">
+                    <div class="playerCard__UI">
+                        <p>
+                            Enter a number <br>
+                            between 0 and 100 <br>
+                            <input class="playerCard__input" data-player=3 type="text">
+                            <button class="playerCard__submit" data-player=3>Submit</button>
+                            <span class="playerCard__message" data-player=3>
+                                Take a guess
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="page__navigation-mobile">
+            <div class="navigation-mobile">
+                <div class="navigation-item">
+                    <img class="btn_icon" src="./assets/icons/ranking.png" alt="Ranking">
+                    <div class="btn_title">
+                        Rankings
+                    </div>
+                </div>
+                <div class="navigation-item">
+                    <img class="btn_icon" src="./assets/icons/tournament.png" alt="Tournament">
+                    Tournament
+                </div>
+                <div class="navigation-item">
+                    <img class="btn_icon" src="./assets/icons/support.png" alt="Support">
+
+                    Support
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="./js/menu.js"></script>
+<script src="./js/game.js"></script>
+</html>
