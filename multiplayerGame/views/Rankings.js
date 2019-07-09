@@ -26,7 +26,7 @@ let Rankings = {
              <div class="ranking__list">
                 <ul id="rankingList">
                     ${ users.map((user, index) => {
-                       return( `<li>${index} ${user.name} : ${getRandomNumber()} points</li>`);
+                       return( `<li>${index} ${user.name}</li>`);
                     })}
                 </ul>
             </div>`
