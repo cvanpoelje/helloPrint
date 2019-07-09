@@ -25,7 +25,7 @@ let Rankings = {
                 <ul id="rankingList">
                     ${ users.map((user) => { 
                         console.log(user.name);
-                        `<li>${user.name}</li>`})}
+                        `<li><h1>${user.name}</h1></li>`})}
                 </ul>
             </div>
 `;
