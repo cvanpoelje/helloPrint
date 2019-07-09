@@ -4,12 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/styles/style.css" line="59" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14171409-b390-401f-8a81-6aee04687922" name="Default Changelist" comment="* added Loading message&#10;*">
-      <change afterPath="$PROJECT_DIR$/views/Rankings.js" afterDir="false" />
+    <list default="true" id="14171409-b390-401f-8a81-6aee04687922" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/views/Home.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+            <state relative-caret-position="252">
+              <caret line="30" column="79" lean-forward="true" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -264,7 +261,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562154033102</updated>
       <workItem from="1562154034439" duration="28407000" />
-      <workItem from="1562673265527" duration="5612000" />
+      <workItem from="1562673265527" duration="5860000" />
     </task>
     <task id="LOCAL-00001" summary="*Commented the faulty router paths">
       <created>1562679304646</created>
@@ -273,11 +270,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562679304646</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="* added Loading message&#10;* added the Rankings page, Router functionality should be in place now">
+      <created>1562680084533</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562680084533</updated>
+    </task>
+    <task id="LOCAL-00003" summary="link bug fix">
+      <created>1562680198789</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562680198789</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34019000" />
+    <option name="totallyTimeSpent" value="34267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -333,7 +344,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="*Commented the faulty router paths" />
-    <option name="LAST_COMMIT_MESSAGE" value="*Commented the faulty router paths" />
+    <MESSAGE value="* added Loading message&#10;* added the Rankings page, Router functionality should be in place now" />
+    <MESSAGE value="link bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="link bug fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/styles/server.js" />
@@ -437,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+        <state relative-caret-position="252">
+          <caret line="30" column="79" lean-forward="true" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
         </state>
       </provider>
     </entry>
