@@ -1,7 +1,5 @@
-
 let Home = {
     render: async () => {
-        let posts = await getPostsList();
         let view =  /*html*/`
             <div class="game__container">
                 <div class="playerCard__container">
