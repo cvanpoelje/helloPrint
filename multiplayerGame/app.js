@@ -2,6 +2,7 @@
 
 import Home         from "./views/Home.js";
 import Rankings     from './views/Rankings.js';
+import Tournament     from './views/Tournament.js';
 import Error404     from './views/Error404.js';
 import Utils        from './assets/utils/utils.js';
 
@@ -9,13 +10,13 @@ import Utils        from './assets/utils/utils.js';
 const routes = {
     '/'             : Home
     , '/rankings'      : Rankings
+    , '/tournament'      : Tournament
 };
 
 const router = async () => {
     const content = null || document.querySelector('#content');
 
     let request = Utils.parseRequestURL();
-    console.log(request);
     let parsedURL = (request.resource ? '/' + request.resource : '/') + (request.verb ? '/' + request.verb : '');
     let page = routes[parsedURL] ? routes[parsedURL] : Error404;
     content.innerHTML = await page.render();
