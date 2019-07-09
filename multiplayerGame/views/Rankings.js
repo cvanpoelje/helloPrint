@@ -1,3 +1,5 @@
+import {getRandomNumber} from "../js/game.js"
+
 let getUsersList = async () => {
     let url = "https://jsonplaceholder.typicode.com/users";
     const options = {
@@ -23,15 +25,15 @@ let Rankings = {
             <h1>Rankings!</h1>
              <div class="ranking__list">
                 <ul id="rankingList">
-                    ${ users.map((user) => {
-                       return( `<li>${user.name}</li>`);
+                    ${ users.map((user, index) => {
+                       return( `<li>${index} ${user.name} : ${getRandomNumber()} points</li>`);
                     })}
                 </ul>
-            </div>;
-`
+            </div>`
+
         return view
-    }
-    , after_render: async () => {
+    },
+     after_render: async () => {
     }
 };
 

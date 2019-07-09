@@ -1,4 +1,4 @@
-const getRandomNumber = () => {
+export const getRandomNumber = () => {
     return Math.ceil(Math.random() * 100);
 };
 
