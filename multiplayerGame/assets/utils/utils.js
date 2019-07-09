@@ -4,7 +4,7 @@ const Utils = {
     // --------------------------------
     parseRequestURL : () => {
 
-        let url = location.hash.slice(1).toLowerCase() || 'helloPrint/multiplayerGame/';
+        let url = location.hash.slice(1).toLowerCase() || '/';
         let r = url.split("/");
         let request = {
             resource    : null,
