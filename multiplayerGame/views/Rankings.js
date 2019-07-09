@@ -7,7 +7,7 @@ let getUsersList = async () => {
         }
     };
     try {
-        const response = await fetch(`https://jsonplaceholder.typicode.com/users`, options);
+        const response = await fetch(url, options);
         const json = await response.json();
         console.log(json);
         return json
@@ -15,10 +15,7 @@ let getUsersList = async () => {
         console.log('Error getting documents', err)
     }
 };
-let renderUserlist = async (users) => {
 
-};
-console.log(users);
 let Rankings = {
     render: async () => {
         let users = await getUsersList();
