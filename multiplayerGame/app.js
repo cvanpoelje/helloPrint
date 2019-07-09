@@ -6,7 +6,7 @@ import Rankings     from './views/Rankings.js';
 import Utils        from './assets/utils/utils.js';
 
 // List of supported routes. Any url other than these routes will throw a 404 error
-const baseUrl = "/helloPrint/multiPlayerGame";
+const baseUrl = "/helloPrint/multiPlayerGame/#";
 const routes = {
     [baseUrl+'/']               : Home
     , [baseUrl+'/Rankings']     : Rankings
