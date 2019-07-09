@@ -15,14 +15,19 @@ let getUsersList = async () => {
         console.log('Error getting documents', err)
     }
 };
+let renderUserlist = async (users) => {
 
+};
+console.log(users);
 let Rankings = {
     render: async () => {
-        getUsersList();
+        let users = await getUsersList();
         let view =  /*html*/`
             <h1>Rankings!</h1>
             <div class="ranking__list">
-                list
+                <ul id="rankingList">
+                    ${ users.map((user) => { `<li>${user.name}</li>`}).join('\n ')}
+                </ul>
             </div>
 `;
         return view
