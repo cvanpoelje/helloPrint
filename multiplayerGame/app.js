@@ -7,9 +7,9 @@ import Utils        from './assets/utils/utils.js';
 // List of supported routes. Any url other than these routes will throw a 404 error
 const routes = {
     '/'             : Home
-    , '/about'      : About
-    , '/p/:id'      : PostShow
-    , '/register'   : Register
+    // , '/about'      : About
+    // , '/p/:id'      : PostShow
+    // , '/register'   : Register
 };
 
 const router = async () => {
