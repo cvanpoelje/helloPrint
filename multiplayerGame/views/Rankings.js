@@ -23,7 +23,7 @@ let Rankings = {
             <h1>Rankings!</h1>
              <div class="ranking__list">
                 <ul id="rankingList">
-                    ${ users.map( async (user) => {
+                    ${ users.map((user) => {
                        return( `<li>${user.title}</li>`);
                     })}
                 </ul>
