@@ -50,46 +50,8 @@
     </div>
     <div class="page__container">
         <header></header>
-        <main>
-            <div class="game__container">
-                <div class="playerCard__container">
-                    <div class="playerCard__UI">
-                        <p>
-                            Enter a number <br>
-                            between 0 and 100 <br>
-                            <input class="playerCard__input" data-player=1 type="text">
-                            <button class="playerCard__submit" data-player=1>Submit</button>
-                            <span class="playerCard__message" data-player=1>
-                               Take a guess
-                            </span>
-                        </p>
-                    </div>
-                </div>
-                <div class="playerCard__container">
-                    <div class="playerCard__UI">
-                        <p>
-                            Enter a number <br>
-                            between 0 and 100 <br>
-                            <input class="playerCard__input" data-player=2 type="text">
-                            <button class="playerCard__submit" data-player=2>Submit</button>
-                            <span class="playerCard__message" data-player=2>Take a guess</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="playerCard__container">
-                    <div class="playerCard__UI">
-                        <p>
-                            Enter a number <br>
-                            between 0 and 100 <br>
-                            <input class="playerCard__input" data-player=3 type="text">
-                            <button class="playerCard__submit" data-player=3>Submit</button>
-                            <span class="playerCard__message" data-player=3>
-                                Take a guess
-                            </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <main id="content">
+            <!-- Router-outlet-->
         </main>
         <div class="page__navigation-mobile">
             <div class="navigation-mobile">
@@ -105,7 +67,6 @@
                 </div>
                 <div class="navigation-item">
                     <img class="btn_icon" src="./assets/icons/support.png" alt="Support">
-
                     Support
                 </div>
             </div>
@@ -113,7 +74,8 @@
     </div>
 </div>
 </body>
+<script type="module" src="app.js"></script>
 
-<script src="./js/menu.js"></script>
+<script src="components/menu.js"></script>
 <script src="./js/game.js"></script>
 </html>

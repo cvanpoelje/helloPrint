@@ -2,7 +2,6 @@ const getRandomNumber = () => {
     return Math.ceil(Math.random() * 100);
 };
 
-
 const playerInputs = document.querySelectorAll(".playerCard__input"),
     playerSubmits = document.querySelectorAll(".playerCard__submit"),
     playerMessages = document.querySelectorAll(".playerCard__message");

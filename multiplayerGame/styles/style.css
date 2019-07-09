@@ -23,10 +23,12 @@ h4 {
     display: grid;
     grid-template-columns: 200px auto;
     min-height: 80vh;
+    transition: all 2s;
 }
 
 .--menu-closed {
     display: grid;
+    transition: width 10s;
     grid-template-columns: 0 auto;
 }
 
@@ -42,6 +44,8 @@ h4 {
     grid-template-rows: 20vh auto;
     margin: 50px 30px;
     padding: 60px;
+    transition: all 200ms;
+
 }
 
 header {
@@ -60,6 +64,7 @@ main {
 
 .page__navigation {
     margin: 20px;
+    transition: all 100ms;
 }
 
 .navigation__hamburger img {
@@ -70,8 +75,10 @@ main {
     position: fixed;
 
     width: 33px;
-    border-radius: 2px;
+    border-radius: 4px;
     cursor: pointer;
+    transition: all 200ms;
+
 }
 
 .navigation__hamburger:hover {
@@ -105,6 +112,8 @@ main {
 
     width: 100%;
     height: auto;
+    transition: all 1s;
+
 }
 
 .playerCard__container {
@@ -113,6 +122,8 @@ main {
     border-radius: 2px;
     background-color: white;
     text-align: center;
+    transition: all 1s;
+
 }
 
 .playerCard__input {
@@ -125,6 +136,7 @@ main {
 .playerCard__submit:hover {
     background-color: lightGreen;
     color: black;
+
 }
 
 .playerCard__submit {
@@ -137,6 +149,8 @@ main {
     font-weight: bold;
     border: solid black 1px;
     background-color: #6DA537;
+    transition: all 200ms;
+
 }
 
 .playerCard__submit:disabled {
@@ -182,6 +196,7 @@ main {
 
     .playerCard__container, .page__container {
         border: 0;
+        border-bottom: solid lightgrey 3px;
     }
 
     .page__navigation {
