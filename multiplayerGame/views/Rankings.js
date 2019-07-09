@@ -19,15 +19,16 @@ let getUsersList = async () => {
 let Rankings = {
     render: async () => {
         let users = await getUsersList();
-        let view =  /*html*/`
+        let view =  /*html*/ `
             <h1>Rankings!</h1>
-            <div class="ranking__list">
+             <div class="ranking__list">
                 <ul id="rankingList">
-                    ${ users.map( async (user, index) => { 
-                        `<li>${index} is named ${user.name}</li>`
+                    ${ users.map( async (user) => {
+                       return( `<li>${user.title}</li>`);
                     })}
                 </ul>
-            </div>`;
+            </div>;
+`
         return view
     }
     , after_render: async () => {
