@@ -6,12 +6,9 @@ import Rankings     from './views/Rankings.js';
 import Utils        from './assets/utils/utils.js';
 
 // List of supported routes. Any url other than these routes will throw a 404 error
-const baseUrl = "/helloPrint/multiPlayerGame/#";
 const routes = {
-    [baseUrl+'/']               : Home
-    , [baseUrl+'/Rankings']     : Rankings
-    // , '/p/:id'      : PostShow
-    // , '/register'   : Register
+    '/'             : Home
+    , '/Rankings'      : Rankings
 };
 
 const router = async () => {
@@ -22,11 +19,11 @@ const router = async () => {
     let request = Utils.parseRequestURL();
 
     // Parse the URL and if it has an id part, change it with the string ":id"
-    let parsedURL = (request.resource ? request.resource : '/') + (request.id ? '/:id' : '') + (request.verb ? '/' + request.verb : '')
+    let parsedURL = (request.resource ? '/' + request.resource : '/') + (request.verb ? '/' + request.verb : '')
 
     // Get the page from our hash of supported routes.
     // If the parsed URL is not in our list of supported routes, select the 404 page instead
-    let page = routes[parsedURL] ? routes[parsedURL] : Error404;
+    let page = routes[parsedURL] ? routes[parsedURL] : Error404
     content.innerHTML = await page.render();
     await page.after_render();
 };
