@@ -1,9 +1,5 @@
-// --------------------------------
-//  Define Data Sources
-// --------------------------------
-
 let getUsersList = async () => {
-    let url="https://jsonplaceholder.typicode.com/users";
+    let url = "https://jsonplaceholder.typicode.com/users";
     const options = {
         method: 'GET',
         headers: {
@@ -20,12 +16,14 @@ let getUsersList = async () => {
     }
 };
 
-
 let Rankings = {
     render: async () => {
         getUsersList();
         let view =  /*html*/`
             <h1>Rankings!</h1>
+            <div class="ranking__list">
+                list
+            </div>
 `;
         return view
     }
