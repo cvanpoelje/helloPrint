@@ -20,7 +20,7 @@ let getPostsList = async () => {
 }
 
 let Home = {
-    render : async () => {
+    render: async () => {
         let posts = await getPostsList();
         let view =  /*html*/`
             <div class="game__container">
@@ -61,7 +61,9 @@ let Home = {
                         </p>
                     </div>
                 </div>
-            </div>`
+            </div>
+<script src="./js/game.js"></script>
+`
         return view
     }
     , after_render: async () => {

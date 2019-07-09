@@ -2,12 +2,13 @@
 
 import Home         from "./views/Home.js";
 import Error404     from './views/Error404.js';
+import Rankings     from './views/Rankings.js';
 import Utils        from './assets/utils/utils.js';
 
 // List of supported routes. Any url other than these routes will throw a 404 error
 const routes = {
     '/'             : Home
-    // , '/about'      : About
+    , '/rankings'      : Rankings
     // , '/p/:id'      : PostShow
     // , '/register'   : Register
 };
