@@ -4,18 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/styles/style.css" line="59" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14171409-b390-401f-8a81-6aee04687922" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/Error404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/rankings.html" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/tournaments.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/utils/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="14171409-b390-401f-8a81-6aee04687922" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -222,12 +211,12 @@
       <option name="presentableId" value="Default" />
       <updated>1562154033102</updated>
       <workItem from="1562154034439" duration="28407000" />
-      <workItem from="1562673265527" duration="4277000" />
+      <workItem from="1562673265527" duration="4682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32684000" />
+    <option name="totallyTimeSpent" value="33089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
