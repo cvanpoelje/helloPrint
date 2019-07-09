@@ -23,12 +23,11 @@ let Rankings = {
             <h1>Rankings!</h1>
             <div class="ranking__list">
                 <ul id="rankingList">
-                    ${ users.map( async (user) => { 
-                        console.log(user.name);
-                        `<li><h1>${await user.name}</h1></li>`})}
+                    ${ users.map( async (user, index) => { 
+                        `<li>${index} is named ${user.name}</li>`
+                    })}
                 </ul>
-            </div>
-`;
+            </div>`;
         return view
     }
     , after_render: async () => {
