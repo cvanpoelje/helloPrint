@@ -23,7 +23,9 @@ let Rankings = {
             <h1>Rankings!</h1>
             <div class="ranking__list">
                 <ul id="rankingList">
-                    ${ users.map((user) => { `<li>${user.name}</li>`}).join('\n ')}
+                    ${ users.map((user) => { 
+                        console.log(user.name);
+                        `<li>${user.name}</li>`}))}
                 </ul>
             </div>
 `;
